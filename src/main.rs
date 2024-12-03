@@ -7,6 +7,6 @@ use day2::{one, two};
 
 fn main() {
     let input : String = fs::read_to_string("src/input/day2.txt").unwrap();
-    println!("{:?}", one(input));
-    // println!("{:?}", two(input))
+    // println!("{:?}", one(input));
+    println!("{:?}", two(input))
 }

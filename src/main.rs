@@ -10,11 +10,13 @@ use std::fs;
 // use day4::{one, two};
 // mod day5;
 // use day5::{one, two};
-mod day6;
-use day6::{one, two};
+// mod day6;
+// use day6::{one, two};
+mod day7;
+use day7::{one, two};
 
 fn main() {
-    let input : String = fs::read_to_string("src/input/day6.txt").unwrap();
-    println!("{:?}", one(input));
-    // println!("{:?}", two(input))
+    let input : String = fs::read_to_string("src/input/day7.txt").unwrap();
+    // println!("{:?}", one(input));
+    println!("{:?}", two(input))
 }
